@@ -6,10 +6,10 @@ import './Buttons.css';
 const Buttons = ({onCreate, onRemove}) => {
     return (
         <div className="Buttons">
-            <div className="Btn add" onClick={onCreate}>
+            <div className="btn add" onClick={onCreate}>
                 생성
             </div>
-            <div className="Btn remove" onClick={onRemove}>
+            <div className="btn remove" onClick={onRemove}>
                 제거
             </div>
         </div>
